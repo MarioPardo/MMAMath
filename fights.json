@@ -1,1 +1,15 @@
-
+{
+  "2025057OliveiraGaethje": {
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Justin Gaethje",
+    "date": "2025-05-7",
+    "result": {
+      "KO": 0,
+      "SUB": 1,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  }
+}
