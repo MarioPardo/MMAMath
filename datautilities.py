@@ -5,7 +5,7 @@ from datetime import datetime
 
 FIGHTERS_FILE = "fighters.json"
 FIGHTS_FILE = "fights.json"
-RESULT_TYPES = ["KO", "SUB", "UDEC", "SDEC", "MDEC", "Draw"]
+RESULT_TYPES = ["KO/TKO", "SUB", "UDEC", "SDEC", "MDEC", "Draw"]
 
 
 def load_json_file(filepath):

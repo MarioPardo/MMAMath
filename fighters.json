@@ -2,13 +2,39 @@
   "4599270": {
     "name": "Charles Oliveira",
     "fight_ids": [
-      "2025057OliveiraGaethje"
+      "2025057OliveiraGaethje",
+      "20210515OliveiraChandler"
     ]
   },
   "7897990": {
     "name": "Justin Gaethje",
     "fight_ids": [
       "2025057OliveiraGaethje"
+    ]
+  },
+  "6724380": {
+    "name": "Max Holloway",
+    "fight_ids": [
+      "20190413HollowayPoirier",
+      "20200711VolkanovskiHolloway"
+    ]
+  },
+  "5588359": {
+    "name": "Dustin Poirier",
+    "fight_ids": [
+      "20190413HollowayPoirier"
+    ]
+  },
+  "836736": {
+    "name": "Michael Chandler",
+    "fight_ids": [
+      "20210515OliveiraChandler"
+    ]
+  },
+  "530033": {
+    "name": "Alexander Volkanovski",
+    "fight_ids": [
+      "20200711VolkanovskiHolloway"
     ]
   }
 }

@@ -4,9 +4,48 @@
     "fighter2": "Justin Gaethje",
     "date": "2025-05-7",
     "result": {
-      "KO": 0,
+      "KO/TKO": 0,
       "SUB": 1,
       "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20190413HollowayPoirier": {
+    "fighter1": "Max Holloway",
+    "fighter2": "Dustin Poirier",
+    "date": "2019-04-13",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 1,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20210515OliveiraChandler": {
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Michael Chandler",
+    "date": "2021-05-15",
+    "result": {
+      "KO": 0,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20200711VolkanovskiHolloway": {
+    "fighter1": "Alexander Volkanovski",
+    "fighter2": "Max Holloway",
+    "date": "2020-07-11",
+    "result": {
+      "KO": 0,
+      "SUB": 0,
+      "UDEC": 1,
       "SDEC": 0,
       "MDEC": 0,
       "Draw": 0
