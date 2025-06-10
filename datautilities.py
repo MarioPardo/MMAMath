@@ -7,6 +7,7 @@ FIGHTERS_FILE = "fighters.json"
 FIGHTS_FILE = "fights.json"
 RESULT_TYPES = ["KO/TKO", "SUB", "UDEC", "SDEC", "MDEC", "Draw"]
 
+#### FUNCTIONS TO LOAD AND SAVE DATA ####
 
 def load_json_file(filepath):
     if not os.path.exists(filepath):
@@ -108,8 +109,42 @@ def AddFight(fighter1name, fighter2name, date_str, result_str):
 
     print(f" Fight added: {fighter1name} vs {fighter2name} on {date} ({result_str})")
 
+############
 
-# HELPER FUNCTIONS
+
+######  DATA MANAGEMENT FUNCTIONS ######
+
+def get_fighter_by_id(fighter_id):
+    fighters = load_fighters()
+    return fighters.get(str(fighter_id), None)
+
+def get_fighter_by_name(name):
+    fighters = load_fighters()
+    for fid, fighter in fighters.items():
+        if fighter["name"].lower() == name.lower():
+            return {fid: fighter}
+    return None
+
+def get_fights_by_fighter(fighter_name):
+    fights = load_fights()
+    fighter_fights = {}
+    for fight_id, fight in fights.items():
+        if fight["fighter1"].lower() == fighter_name.lower() or fight["fighter2"].lower() == fighter_name.lower():
+            fighter_fights[fight_id] = fight
+    return fighter_fights
+
+def get_all_fighter_names():
+    fighters = load_fighters()
+    return [fighter["name"] for fighter in fighters.values()]
+
+
+
+
+
+
+
+
+# HELPER FUNCTIONS ######
 
 
 def parse_date(date_str):
