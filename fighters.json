@@ -1,40 +1,64 @@
 {
-  "4599270": {
+  "1930599": {
     "name": "Charles Oliveira",
     "fight_ids": [
       "2025057OliveiraGaethje",
-      "20210515OliveiraChandler"
+      "20210515OliveiraChandler",
+      "20211211OliveiraPoirier"
     ]
   },
-  "7897990": {
+  "6666004": {
     "name": "Justin Gaethje",
     "fight_ids": [
-      "2025057OliveiraGaethje"
+      "2025057OliveiraGaethje",
+      "20220729GaethjePoirier",
+      "20210515GaethjeChandler",
+      "20180414PoirierGaethje"
     ]
   },
-  "6724380": {
-    "name": "Max Holloway",
-    "fight_ids": [
-      "20190413HollowayPoirier",
-      "20200711VolkanovskiHolloway"
-    ]
-  },
-  "5588359": {
+  "5070431": {
     "name": "Dustin Poirier",
     "fight_ids": [
-      "20190413HollowayPoirier"
+      "20190413PoirierHolloway",
+      "20220729GaethjePoirier",
+      "20211211OliveiraPoirier",
+      "20180414PoirierGaethje"
     ]
   },
-  "836736": {
+  "6351940": {
+    "name": "Max Holloway",
+    "fight_ids": [
+      "20190413PoirierHolloway",
+      "20200711VolkanovskiHolloway",
+      "20220702VolkanovskiHolloway",
+      "20240413HollowayGaethje"
+    ]
+  },
+  "7347461": {
     "name": "Michael Chandler",
     "fight_ids": [
-      "20210515OliveiraChandler"
+      "20210515OliveiraChandler",
+      "20210515GaethjeChandler",
+      "20250412PimblettChandler"
     ]
   },
-  "530033": {
+  "8880720": {
     "name": "Alexander Volkanovski",
     "fight_ids": [
-      "20200711VolkanovskiHolloway"
+      "20200711VolkanovskiHolloway",
+      "20220702VolkanovskiHolloway"
+    ]
+  },
+  "9174018": {
+    "name": "Dustin Gaethje",
+    "fight_ids": [
+      "20240413HollowayGaethje"
+    ]
+  },
+  "4965326": {
+    "name": "Paddy Pimblett",
+    "fight_ids": [
+      "20250412PimblettChandler"
     ]
   }
 }

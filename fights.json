@@ -12,9 +12,9 @@
       "Draw": 0
     }
   },
-  "20190413HollowayPoirier": {
-    "fighter1": "Max Holloway",
-    "fighter2": "Dustin Poirier",
+  "20190413PoirierHolloway": {
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Max Holloway",
     "date": "2019-04-13",
     "result": {
       "KO/TKO": 0,
@@ -30,7 +30,7 @@
     "fighter2": "Michael Chandler",
     "date": "2021-05-15",
     "result": {
-      "KO": 0,
+      "KO/TKO": 1,
       "SUB": 0,
       "UDEC": 0,
       "SDEC": 0,
@@ -43,9 +43,100 @@
     "fighter2": "Max Holloway",
     "date": "2020-07-11",
     "result": {
-      "KO": 0,
+      "KO/TKO": 0,
       "SUB": 0,
       "UDEC": 1,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20220729GaethjePoirier": {
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Dustin Poirier",
+    "date": "2022-07-29",
+    "result": {
+      "KO/TKO": 1,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20211211OliveiraPoirier": {
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Dustin Poirier",
+    "date": "2021-12-11",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 1,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20210515GaethjeChandler": {
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Michael Chandler",
+    "date": "2021-05-15",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 1,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20180414PoirierGaethje": {
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Justin Gaethje",
+    "date": "2018-04-14",
+    "result": {
+      "KO/TKO": 1,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20220702VolkanovskiHolloway": {
+    "fighter1": "Alexander Volkanovski",
+    "fighter2": "Max Holloway",
+    "date": "2022-07-02",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 1,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20240413HollowayGaethje": {
+    "fighter1": "Max Holloway",
+    "fighter2": "Dustin Gaethje",
+    "date": "2024-04-13",
+    "result": {
+      "KO/TKO": 1,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20250412PimblettChandler": {
+    "fighter1": "Paddy Pimblett",
+    "fighter2": "Michael Chandler",
+    "date": "2025-04-12",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 1,
+      "UDEC": 0,
       "SDEC": 0,
       "MDEC": 0,
       "Draw": 0
