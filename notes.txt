@@ -1,0 +1,4 @@
+NOTES
+
+proposed api for fetching data: 
+    https://documenter.getpostman.com/view/26964445/2s9Y5TyPx6#f668c8fe-90ca-4f49-9a43-ea8520d0a52b
