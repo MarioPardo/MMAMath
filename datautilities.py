@@ -138,7 +138,11 @@ def get_all_fighter_names():
     return [fighter["name"] for fighter in fighters.values()]
 
 
-
+def get_result_from_dict(result_dict):
+    for rtype in RESULT_TYPES:
+        if result_dict.get(rtype, 0) == 1:
+            return rtype
+    return "Unknown"
 
 
 

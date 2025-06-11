@@ -31,7 +31,8 @@
       "20190413PoirierHolloway",
       "20200711VolkanovskiHolloway",
       "20220702VolkanovskiHolloway",
-      "20240413HollowayGaethje"
+      "20240413HollowayGaethje",
+      "20241026TopuriaHolloway"
     ]
   },
   "7347461": {
@@ -46,7 +47,8 @@
     "name": "Alexander Volkanovski",
     "fight_ids": [
       "20200711VolkanovskiHolloway",
-      "20220702VolkanovskiHolloway"
+      "20220702VolkanovskiHolloway",
+      "20240217TopuriaVolkanovski"
     ]
   },
   "9174018": {
@@ -59,6 +61,13 @@
     "name": "Paddy Pimblett",
     "fight_ids": [
       "20250412PimblettChandler"
+    ]
+  },
+  "3348790": {
+    "name": "Ilia Topuria",
+    "fight_ids": [
+      "20240217TopuriaVolkanovski",
+      "20241026TopuriaHolloway"
     ]
   }
 }

@@ -141,5 +141,31 @@
       "MDEC": 0,
       "Draw": 0
     }
+  },
+  "20240217TopuriaVolkanovski": {
+    "fighter1": "Ilia Topuria",
+    "fighter2": "Alexander Volkanovski",
+    "date": "2024-02-17",
+    "result": {
+      "KO/TKO": 1,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20241026TopuriaHolloway": {
+    "fighter1": "Ilia Topuria",
+    "fighter2": "Max Holloway",
+    "date": "2024-10-26",
+    "result": {
+      "KO/TKO": 1,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
   }
 }
