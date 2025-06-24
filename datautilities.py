@@ -145,8 +145,6 @@ def get_result_from_dict(result_dict):
     return "Unknown"
 
 
-def flip_result_perspective(resultString):
-    
 
 
 
