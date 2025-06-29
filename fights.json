@@ -1,8 +1,8 @@
 {
-  "2025057OliveiraGaethje": {
-    "winner": "Charles Oliveira",
-    "loser": "Justin Gaethje",
-    "date": "2022-05-7",
+  "20250507OliveiraGaethje": {
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Justin Gaethje",
+    "date": "2025-05-07",
     "result": {
       "KO/TKO": 0,
       "SUB": 1,
@@ -13,8 +13,8 @@
     }
   },
   "20190413PoirierHolloway": {
-    "winner": "Dustin Poirier",
-    "loser": "Max Holloway",
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Max Holloway",
     "date": "2019-04-13",
     "result": {
       "KO/TKO": 0,
@@ -26,8 +26,8 @@
     }
   },
   "20210515OliveiraChandler": {
-    "winner": "Charles Oliveira",
-    "loser": "Michael Chandler",
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Michael Chandler",
     "date": "2021-05-15",
     "result": {
       "KO/TKO": 1,
@@ -39,8 +39,8 @@
     }
   },
   "20200711VolkanovskiHolloway": {
-    "winner": "Alexander Volkanovski",
-    "loser": "Max Holloway",
+    "fighter1": "Alexander Volkanovski",
+    "fighter2": "Max Holloway",
     "date": "2020-07-11",
     "result": {
       "KO/TKO": 0,
@@ -52,8 +52,8 @@
     }
   },
   "20220729GaethjePoirier": {
-    "winner": "Justin Gaethje",
-    "loser": "Dustin Poirier",
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Dustin Poirier",
     "date": "2022-07-29",
     "result": {
       "KO/TKO": 1,
@@ -65,8 +65,8 @@
     }
   },
   "20211211OliveiraPoirier": {
-    "winner": "Charles Oliveira",
-    "loser": "Dustin Poirier",
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Dustin Poirier",
     "date": "2021-12-11",
     "result": {
       "KO/TKO": 0,
@@ -78,8 +78,8 @@
     }
   },
   "20210515GaethjeChandler": {
-    "winner": "Justin Gaethje",
-    "loser": "Michael Chandler",
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Michael Chandler",
     "date": "2021-05-15",
     "result": {
       "KO/TKO": 0,
@@ -91,8 +91,8 @@
     }
   },
   "20180414PoirierGaethje": {
-    "winner": "Dustin Poirier",
-    "loser": "Justin Gaethje",
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Justin Gaethje",
     "date": "2018-04-14",
     "result": {
       "KO/TKO": 1,
@@ -104,8 +104,8 @@
     }
   },
   "20220702VolkanovskiHolloway": {
-    "winner": "Alexander Volkanovski",
-    "loser": "Max Holloway",
+    "fighter1": "Alexander Volkanovski",
+    "fighter2": "Max Holloway",
     "date": "2022-07-02",
     "result": {
       "KO/TKO": 0,
@@ -116,9 +116,22 @@
       "Draw": 0
     }
   },
+  "20241116OliveiraChandler": {
+    "fighter1": "Charles Oliveira",
+    "fighter2": "Michael Chandler",
+    "date": "2024-11-16",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 1,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
   "20240413HollowayGaethje": {
-    "winner": "Max Holloway",
-    "loser": "Dustin Gaethje",
+    "fighter1": "Max Holloway",
+    "fighter2": "Justin Gaethje",
     "date": "2024-04-13",
     "result": {
       "KO/TKO": 1,
@@ -130,8 +143,8 @@
     }
   },
   "20250412PimblettChandler": {
-    "winner": "Paddy Pimblett",
-    "loser": "Michael Chandler",
+    "fighter1": "Paddy Pimblett",
+    "fighter2": "Michael Chandler",
     "date": "2025-04-12",
     "result": {
       "KO/TKO": 0,
@@ -143,8 +156,8 @@
     }
   },
   "20240217TopuriaVolkanovski": {
-    "winner": "Ilia Topuria",
-    "loser": "Alexander Volkanovski",
+    "fighter1": "Ilia Topuria",
+    "fighter2": "Alexander Volkanovski",
     "date": "2024-02-17",
     "result": {
       "KO/TKO": 1,
@@ -156,13 +169,39 @@
     }
   },
   "20241026TopuriaHolloway": {
-    "winner": "Ilia Topuria",
-    "loser": "Max Holloway",
+    "fighter1": "Ilia Topuria",
+    "fighter2": "Max Holloway",
     "date": "2024-10-26",
     "result": {
       "KO/TKO": 1,
       "SUB": 0,
       "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 0,
+      "Draw": 0
+    }
+  },
+  "20250308GaethjeFiziev": {
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Rafeal Fiziev",
+    "date": "2025-03-08",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 0,
+      "SDEC": 0,
+      "MDEC": 1,
+      "Draw": 0
+    }
+  },
+  "20230318GaethjeChandler": {
+    "fighter1": "Justin Gaethje",
+    "fighter2": "Michael Chandler",
+    "date": "2023-03-18",
+    "result": {
+      "KO/TKO": 0,
+      "SUB": 0,
+      "UDEC": 1,
       "SDEC": 0,
       "MDEC": 0,
       "Draw": 0

@@ -1,73 +1,79 @@
 {
-  "1930599": {
+  "3923981": {
     "name": "Charles Oliveira",
     "fight_ids": [
-      "2025057OliveiraGaethje",
-      "20210515OliveiraChandler",
-      "20211211OliveiraPoirier"
+      "20250507OliveiraGaethje",
+      "20241116OliveiraChandler",
+      "20211211OliveiraPoirier",
+      "20210515OliveiraChandler"
     ]
   },
-  "6666004": {
+  "6322537": {
     "name": "Justin Gaethje",
     "fight_ids": [
-      "2025057OliveiraGaethje",
+      "20250507OliveiraGaethje",
+      "20250308GaethjeFiziev",
+      "20240413HollowayGaethje",
+      "20230318GaethjeChandler",
       "20220729GaethjePoirier",
       "20210515GaethjeChandler",
       "20180414PoirierGaethje"
     ]
   },
-  "5070431": {
+  "5829328": {
     "name": "Dustin Poirier",
     "fight_ids": [
-      "20190413PoirierHolloway",
       "20220729GaethjePoirier",
       "20211211OliveiraPoirier",
+      "20190413PoirierHolloway",
       "20180414PoirierGaethje"
     ]
   },
-  "6351940": {
+  "2321883": {
     "name": "Max Holloway",
     "fight_ids": [
-      "20190413PoirierHolloway",
-      "20200711VolkanovskiHolloway",
-      "20220702VolkanovskiHolloway",
+      "20241026TopuriaHolloway",
       "20240413HollowayGaethje",
-      "20241026TopuriaHolloway"
+      "20220702VolkanovskiHolloway",
+      "20200711VolkanovskiHolloway",
+      "20190413PoirierHolloway"
     ]
   },
-  "7347461": {
+  "3580924": {
     "name": "Michael Chandler",
     "fight_ids": [
+      "20250412PimblettChandler",
+      "20241116OliveiraChandler",
+      "20230318GaethjeChandler",
       "20210515OliveiraChandler",
-      "20210515GaethjeChandler",
-      "20250412PimblettChandler"
+      "20210515GaethjeChandler"
     ]
   },
-  "8880720": {
+  "101281": {
     "name": "Alexander Volkanovski",
     "fight_ids": [
-      "20200711VolkanovskiHolloway",
+      "20240217TopuriaVolkanovski",
       "20220702VolkanovskiHolloway",
-      "20240217TopuriaVolkanovski"
+      "20200711VolkanovskiHolloway"
     ]
   },
-  "9174018": {
-    "name": "Dustin Gaethje",
-    "fight_ids": [
-      "20240413HollowayGaethje"
-    ]
-  },
-  "4965326": {
+  "3702753": {
     "name": "Paddy Pimblett",
     "fight_ids": [
       "20250412PimblettChandler"
     ]
   },
-  "3348790": {
+  "789306": {
     "name": "Ilia Topuria",
     "fight_ids": [
-      "20240217TopuriaVolkanovski",
-      "20241026TopuriaHolloway"
+      "20241026TopuriaHolloway",
+      "20240217TopuriaVolkanovski"
+    ]
+  },
+  "2680121": {
+    "name": "Rafeal Fiziev",
+    "fight_ids": [
+      "20250308GaethjeFiziev"
     ]
   }
 }

@@ -4,17 +4,16 @@
 
 - [X] Update custom traversal to correctly identify winner and loser
 
-- [ ] Ensure if fighters have multiple fights, most recent one is stored first
+- [X]] Ensure if fighters have multiple fights, most recent one is stored first 
+    - what I did was simply add
 
 - [ ] Code cleanup - functions into proper files, better names, etc
-
 
 - [ ] Make custom traversal that only uses wins/draws
 
 - [ ] Add simple score per fight
 
 - [ ] Calculate score per path
-
 
 
 - [ ] BIG TASK - Data Collection

@@ -34,6 +34,8 @@ def save_fights(fights):
     with open(FIGHTS_FILE, "w") as f:
         json.dump(fights, f, indent=2)
 
+
+
 def generate_fighter_id(existing_ids, digits=7):
     while True:
         new_id = random.randint(1, 10**digits - 1)
@@ -91,7 +93,7 @@ def AddFight(fighter1name, fighter2name, date_str, result_str):
     f1_id = AddFighter(fighter1name)
     f2_id = AddFighter(fighter2name)
     
-   
+
     # Add fight to fight list
     fights[fight_id] = {
         "fighter1": fighter1name,
@@ -102,12 +104,32 @@ def AddFight(fighter1name, fighter2name, date_str, result_str):
     save_fights(fights)
 
     # Update each fighter’s fight list
-    fighters = load_fighters()  
+    fighters = load_fighters()
     fighters[str(f1_id)]["fight_ids"].append(fight_id)
+    fighters[str(f1_id)]["fight_ids"].sort(key=lambda x: int(str(x)[:8]), reverse=True)
     fighters[str(f2_id)]["fight_ids"].append(fight_id)
+    fighters[str(f2_id)]["fight_ids"].sort(key=lambda x: int(str(x)[:8]), reverse=True)
     save_fighters(fighters)
 
     print(f" Fight added: {fighter1name} vs {fighter2name} on {date} ({result_str})")
+
+
+def AddFightToFighter(fighter_id, fight_id):
+    fighters = load_fighters()
+    fighter = fighters.get(str(fighter_id))
+    if fighter:
+        if fight_id not in fighter["fight_ids"]:
+            fighter["fight_ids"].append(fight_id)
+            # Sort fight_ids by the first 8 digits (date part), descending
+            fighter["fight_ids"].sort(key=lambda x: int(str(x)[:8]), reverse=True)
+            print(f"Added fight {fight_id} to fighter ID {fighter_id}")
+        else:
+            print(f"Fight {fight_id} already exists for fighter ID {fighter_id}")
+    else:
+        print(f"Fighter with ID '{fighter_id}' not found.")
+
+
+
 
 ############
 
