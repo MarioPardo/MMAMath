@@ -96,8 +96,8 @@ def AddFight(fighter1name, fighter2name, date_str, result_str):
 
     # Add fight to fight list
     fights[fight_id] = {
-        "fighter1": fighter1name,
-        "fighter2": fighter2name,
+        "winner": fighter1name,
+        "loser": fighter2name,
         "date": date_str,
         "result": encode_result(result_str)
     }
