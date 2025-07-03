@@ -17,6 +17,7 @@
 
 
 - [ ] BIG TASK - Data Collection
+    - [X] Scraper to get all UFC fighter names
     - [ ] test out API
     - [ ] parse required data from api
     
